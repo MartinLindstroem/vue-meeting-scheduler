@@ -46,7 +46,7 @@ To be able to authenticate users with microsoft you need to register your applic
 ```
 const msalConfig = {
     auth: {
-        clientId: '<your-client-id>',
+        clientId: 'your-client-id',
         redirectUri: 'http://localhost:8080'
     }
 };

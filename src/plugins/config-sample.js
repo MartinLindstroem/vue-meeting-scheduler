@@ -1,6 +1,6 @@
 const msalConfig = {
     auth: {
-        clientId: '<your-client-id>',
+        clientId: 'your-client-id',
         redirectUri: 'http://localhost:8080'
     }
 };
