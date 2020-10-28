@@ -39,8 +39,11 @@ cp src/plugins/config-sample.js src/plugins/config.js
 * Go to `http://localhost:8080`
 
 ## Setting up Firebase
-1. Create a new project in Firebase
-2. As stated in the **project setup** at the start of this README, change these values to your own in `src/plugins/config.js`
+1. Go to https://firebase.google.com/ and log in
+2. In the upper right corner press `Go to console`
+3. Add project
+4. In the project overview below the text `Get started by adding Firebase to your app` press the `web` button and register your app.
+5. Copy the values in the `firebaseConfig` object and paste them in `src/plugins/config.js`
 ```
 const firebaseConfig = {
   apiKey: "your-api-key",
@@ -52,6 +55,7 @@ const firebaseConfig = {
   appId: "your-app-id"
 }
 ```
+6. Go to `Cloud Firestore` and create a database
 
 ## Registering application
 To be able to authenticate users with microsoft you need to register your application
