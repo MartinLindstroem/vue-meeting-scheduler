@@ -1,8 +1,8 @@
-# vue-meeting-scheduler
+# EasyMeet
 ![Calendar](./src/assets/meeting-scheduler.png)
 
 ## Overview
-Vue-meeting-scheduler is an app that makes scheduling meetings easier. It utilizes the Microsoft Authentication Library to make it possible to sign in with your Microsoft account, Microsoft Graph API to show/create Microsoft calendar events, Vue.js + a Vuetify calendar component to display signed in users microsoft events and Google Firebase to store created dates for the poll-voting system.
+EasyMeet is an app that makes scheduling meetings easier. It utilizes the Microsoft Authentication Library to make it possible to sign in with your Microsoft account, Microsoft Graph API to show/create Microsoft calendar events, Vue.js + a Vuetify calendar component to display signed in users microsoft events and Google Firebase to store created dates for the poll-voting system.
 
 **A microsoft account is needed to use the application.**
 
@@ -13,18 +13,26 @@ Vue-meeting-scheduler is an app that makes scheduling meetings easier. It utiliz
 4. Create new events with the possibility to invite other people.
 
 ## Project setup
+**Make sure that you have node and npm installed**
+
+The commands below are based on Linux(debian). Change the commands accordingly if you're using another system.
+
+Open up your terminal and do the following:
 ```
 # clone the repo
 git clone https://github.com/MartinLindstroem/vue-meeting-scheduler.git
 
-# Go to root directory
+# Go to the directory
 cd vue-meeting-scheduler
+
+# Install dependencies
+npm install
 
 # Copy the config-sample.js file
 cp src/plugins/config-sample.js src/plugins/config.js
 ```
 
-* Next up you have change the values in `src/plugins/config.js` to your own values (guide further down on how to get your own values)
+* Next open your text editor of choice and change the values in `src/plugins/config.js` to your own values (guide further down on how to get your own values)
 
 * After that make sure that you are in the root directory and run the command `npm run serve` to start the server
 
