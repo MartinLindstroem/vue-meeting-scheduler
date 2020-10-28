@@ -64,7 +64,7 @@ To be able to authenticate users with microsoft you need to register your applic
 2. Go to **Azure Active Directory** in the menu to the left and select **App registrations**
 3. Select **New registration** and enter a name, set **Supported account types** to **Accounts in any organizational directory and personal Microsoft accounts**
 4. Under **redirect URI**, set the first drop-down to **Single-page application (SPA)** and set the value to *http://localhost:8080*
-5. Choose **Register** and copy your **Application (client) ID**
+5. Choose **Register** and copy your **Program-ID(client)**
 6. As stated in the **project setup** at the start of this README, change the client ID to your own in `src/plugins/config.js` 
 ```
 const msalConfig = {
