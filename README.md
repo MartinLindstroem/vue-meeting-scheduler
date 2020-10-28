@@ -13,11 +13,22 @@ Vue-meeting-scheduler is an app that makes scheduling meetings easier. It utiliz
 4. Create new events with the possibility to invite other people.
 
 ## Project setup
-1. Clone the repo
-2. Go to the root directory of the repo and run `npm install`
-3. In the src/plugins folder create a new file called `config.js`
-4. Copy everything from the `src/plugins/config-sample.js` file to your newly created `src/plugins/config.js` and change the values to your own (guide furher down on how to get your own values)
-5. run `npm run serve` to start the server and go to `http://localhost:8080`
+```
+# clone the repo
+git clone https://github.com/MartinLindstroem/vue-meeting-scheduler.git
+
+# Go to root directory
+cd vue-meeting-scheduler
+
+# Copy the config-sample.js file
+cp src/plugins/config-sample.js src/plugins/config.js
+```
+
+* Next up you have change the values in `src/plugins/config.js` to your own values (guide further down on how to get your own values)
+
+* After that make sure that you are in the root directory and run the command `npm run serve` to start the server
+
+* Go to `http://localhost:8080`
 
 ## Setting up Firebase
 1. Create a new project in Firebase
