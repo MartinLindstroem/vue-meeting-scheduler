@@ -2,6 +2,8 @@
 ![Calendar](./src/assets/meeting-scheduler.png)
 
 ## Overview
+**This project is made for the *Individual software project* course available on Blekinge Tekniska Högskola.**
+
 EasyMeet is an app that makes scheduling meetings easier. It utilizes the Microsoft Authentication Library to make it possible to sign in with your Microsoft account, Microsoft Graph API to show/create Microsoft calendar events, Vue.js + a Vuetify calendar component to display signed in users microsoft events and Google Firebase to store created dates for the poll-voting system.
 
 **A microsoft account is needed to use the application.**
@@ -10,7 +12,7 @@ EasyMeet is an app that makes scheduling meetings easier. It utilizes the Micros
 1. Log in with microsoft account
 2. See personal microsoft calendar events in the app calendar
 3. A voting system where the organizer can add dates and let other users vote for their preferable date.
-4. Create new events with the possibility to invite other people.
+4. Create new events that are synced to your microsoft account with the possibility to invite other people.
 
 ## Project setup
 **Make sure that you have node and npm installed**
